@@ -1,0 +1,224 @@
+body{
+    background-color: #FFFAF6;
+}
+/* ====================導覽列 */
+.first{
+    width: 100%;
+    background-color: #F8FFF6;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 100px;
+    z-index: 10;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.first .frame{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    display: flex;
+}
+h1{
+    flex-grow: 15;
+}
+.first img{
+    width: 140px;
+    height: 56px;
+}
+.main-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-list a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #4F1616;
+    text-shadow: 0px 0px 1px;
+    white-space : nowrap;
+}
+.login{
+    flex-grow: 1;
+}
+.login a{
+    background-color: #56AB41;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    white-space : nowrap;
+}
+/* ====================================共用設定 */
+.title{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.sub-title{
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+.line{
+    border-bottom: 1px solid #000;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.court-info{
+    width: 80%;
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.s-pic img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+}
+/* ==============================球館故事 */
+
+.story{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    position: relative;
+}
+.story .bg{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(170, 197, 153, 0.7);
+    bottom: -50px;
+    z-index: -1;
+}
+.story .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.story .text{
+    margin-top: 100px;
+}
+.story .text p{
+    margin: 30px 0;
+}
+.column-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.up,
+.down{
+    width: 50px;
+    height: 50px;
+}
+.people-pic{
+    position: absolute;
+    top: 180px;
+    left: -50px;
+}
+.story .court-pic{
+    margin-bottom: 100px;
+}
+/* ===================================球館設備 */
+.light,
+.space{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.court,
+.public{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.court-em .content{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 60px 80px;
+}
+.court-em .third-title{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.court-em .text{
+    line-height: 25px;
+}
+.court-em img{
+    width: 55%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #94E477;
+}
+/* =================================footer */
+.content-foot{
+    background-color: rgba(86, 171, 65, 0.7);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.foot-info{
+    display: block;
+    padding-right: 100px;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+.foot-info .text span{
+    display: block;
+    margin: 20px;
+}
+.content-foot .logo img{
+    width: 300px;
+    height: 120px;
+}
+.writer{
+    background-color: rgba(86, 171, 65, 0.7);
+    width: 100%;
+}
+.foot-list a{
+    display: block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+.foot-contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.foot-contact a{
+    display: block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+.FAQ{
+    margin-bottom: 72px;
+}
+.content-foot .text{
+    margin-bottom: 20px;
+}
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon a{
+    margin: 0 16px;
+}
