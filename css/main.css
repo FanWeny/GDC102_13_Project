@@ -22,31 +22,29 @@ body{
     display: flex;
 }
 h1{
-    flex-grow: 16;
+    flex-grow: 15;
 }
 .first img{
-    width: 14vw;
-    height: 5.6vw;
+    width: 140px;
+    height: 56px;
 }
 .main-list{
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     flex-grow: 1;
     align-items: center;
     justify-content: space-between;
 }
 .main-list a{
-    padding: 1vw 2vw;
+    padding: 10px 20px;
     text-decoration: none;
     color: #4F1616;
     text-shadow: 0px 0px 1px;
-    font-size: 1.2vw;
+    font-size: 18px;
     transition: 0.3s;
     white-space : nowrap;
 }
 .main-list a:hover{
     border-bottom: 3px solid #4F1616;
-    font-size: 1.3vw;
+    font-size: 20px;
     transition: 0.3s;
     color: #000;
 }
@@ -55,120 +53,21 @@ h1{
 }
 .login a{
     background-color: #56AB41;
-    padding: 1vw 2vw;
+    padding: 10px 20px;
     border-radius: 10px;
     text-decoration: none;
     color: #fff;
-    font-size: 1.2vw;
+    font-size: 18px;
     transition: 0.3s;
     white-space : nowrap;
 }
 .login a:hover{
     background-color: #fff;
     color: #4F1616;
-    font-size: 1.3vw;
+    font-size: 20px;
     font-weight: bold;
     border: 2px solid #ccc;
 }
-/* =================================共用設定 */
-.title{
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-.sub-title{
-    font-size: 24px;
-}
-.thrid-title{
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-.line{
-    border-bottom: 1px solid #000;
-    width: 100%;
-    margin-bottom: 50px;
-}
-.reserve-service{
-    width: 80%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-.s-pic img{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: -20px;
-    left: 135px;
-}
-.court-rsv,
-.line-rsv,
-.course-rsv{
-    margin-bottom: 100px;
-}
-.choose{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-.choose a{
-    text-decoration: none;
-    color: #4F1616;
-    padding: 16px 40px;
-    background-color: rgba(208, 209, 213, 0.8);
-    border-radius: 5px 0px 5px 0px;
-    clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
-}
-.main-frame{
-    margin-left: 30px;
-    margin-top: 30px;
-    position: relative;
-    /* border: 1px solid #000; */
-    width: 50%;
-}
-.main-frame p{
-    margin-bottom: 10px;
-    font-size: 16px;
-    line-height: 20px;
-}
-.main-frame .rsv{
-    margin: 40px 0px;
-}
-.main-frame .reserve{
-    text-decoration: none;
-    background-color: rgba(86, 171, 65, 0.9);
-    padding: 20px 30px;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 24px;
-    /* position: absolute;
-    left:450px;
-    bottom: -30px; */
-    /* white-space : nowrap; */
-    border: 1px solid rgb(13, 182, 123);
-}
-/* =====================================場地預約 */
-.sub-title{
-    text-align: center;
-    background-color: rgba(0, 86, 98, 0.9);
-    padding: 16px 0;
-    border-radius: 10px 10px 0px 0px;
-    color: #fff;
-}
-.content img{
-    width: 50%;
-}
-.content{
-    display: flex;
-    flex-direction: row;
-    border: 1px solid rgba(57, 152, 49, 0.3);
-    border-top: hidden;
-    background:linear-gradient(180deg, rgba(99, 212, 228, 0.4) 0%, rgba(187, 232, 159, 0.4) 100%);
-}
-
 /* ====================================footer */
 .content-foot{
     background-color: rgba(86, 171, 65, 0.7);
@@ -221,7 +120,7 @@ h1{
 .foot-contact a:hover{
     color: #5d2222;
     font-weight: bold;
-    transform: rotate(360deg);
+    transform: rotate(10deg);
     /* transform: rotate3d(0,1,0,360deg); */
 }
 .FAQ{
@@ -237,4 +136,3 @@ h1{
 .icon a{
     margin: 0 16px;
 }
-
