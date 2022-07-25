@@ -298,13 +298,10 @@
     transform: scale(1,1);
     transition: 0.3s;
     width: 190px;
-    transform: rotate3d(0,1,0,45deg);
 }
 .products .content .bmp:hover,
 .products .content .bmg:hover{
     transform: scale(1.1,1.1);
-    transform: rotate3d(0,1,0,90deg);
-
 }
 .products .content .bms,
 .products .content .bmm{
@@ -312,12 +309,10 @@
     transition: 0.3s;
     margin-top: 100px;
     width: 190px;
-    /* transform: rotate3d(0,1,0,45deg); */
 }
 .products .content .bms:hover,
 .products .content .bmm:hover{
     transform: scale(1.1,1.1);
-    /* transform: rotate3d(0,1,0,0deg); */
 }
 .products .content .bm,
 .products .content .bml{
@@ -325,10 +320,8 @@
     transition: 0.3s;
     margin-top: 200px;
     width: 190px;
-    /* transform: rotate3d(0,1,0,45deg); */
 }
 .products .content .bm:hover,
 .products .content .bml:hover{
     transform: scale(1.1,1.1);
-    /* transform: rotate3d(0,1,0,0deg); */
 }
