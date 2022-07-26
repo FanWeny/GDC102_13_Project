@@ -47,7 +47,6 @@ h1{
 .main-list a:hover{
     border-bottom: 3px solid #4F1616;
     font-size: 20px;
-    transition: 0.3s;
     color: #000;
 }
 .login{

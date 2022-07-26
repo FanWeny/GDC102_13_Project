@@ -1,3 +1,12 @@
+.main-list a:nth-child(1){
+    border-bottom: 3px solid #4F1616;
+    font-size: 20px;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-shadow: 0px 0px 1px;
+    white-space : nowrap;
+}
 /* ====================================共用設定 */
 .title{
     font-size: 36px;
