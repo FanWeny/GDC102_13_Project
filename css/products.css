@@ -11,7 +11,6 @@ body{
     top: 0;
     box-sizing: border-box;
     padding: 10px;
-    /* margin-bottom: 100px; */
     z-index: 10;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -230,6 +229,12 @@ h1{
 .all-p{
     margin-bottom: 100px;
 }
+.products-choose,
+.brand-choose,
+.type-choose{
+    color: #1b2a7e;
+    font-size: 20px;
+}
 .products-choose a,
 .brand-choose a,
 .type-choose a{
@@ -243,8 +248,8 @@ h1{
     text-decoration: none;
     text-align: center;
     vertical-align: middle;
-    border-radius: 10px;
-    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,.3);
     transform: scale(1,1);
     transition: 0.3s;
 }
@@ -282,7 +287,13 @@ h1{
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    box-sizing: border-box;
     box-shadow: 1px 1px 3px 0px #aaa;
+    transform: scale(1,1);
+    transition: 0.3s;
+}
+.card-item:hover{
+    transform: scale(1.03,1.03);
 }
 .card-item .pic img{
     width: 100%;
